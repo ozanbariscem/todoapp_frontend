@@ -3,7 +3,7 @@ import { StyleSheet, Text, TextInput, View,
          Button, FlatList, RefreshControl } from 'react-native';
 import {createBottomTabNavigator, createAppContainer} from 'react-navigation';
 
-let baseurl = "http://192.168.1.37:8080/api";
+let baseurl = "localhost/api";
 
 class MainScreen extends React.Component{
   constructor(props) {
